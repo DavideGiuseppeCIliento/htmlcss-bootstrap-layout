@@ -27,7 +27,7 @@
     />
 
     <!-- COLLEGAMENTO FILE CSS PERSONALE -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- FAVICON -->
     <link
@@ -37,16 +37,48 @@
     />
 
     <!-- TITOLO PAGINA -->
-    <title>Modello Progetto</title>
+    <title>Bootstrap 1</title>
   </head>
 
   <body>
     <div class="wrapper">
       <!------------------------- HEADER ------------------------->
-      <header>Ciao</header>
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1>Bootsrtap 5 responsive Grid</h1>
+              <p>Layout a griglia con diversi breakpoint (sm, md, lg)</p>
+            </div>
+          </div>
+        </div>
+      </header>
 
       <!---------------------------  MAIN --------------------------->
-      <main></main>
+      <main>
+        <div class="container-xl">
+          <div class="row g-0">
+            <div class="col col-md-6 col-lg-4">
+              <div class="card rounded-0 db-color1">
+                <h5>Colonna 1</h5>
+                <p>
+                  Larghezza intera su dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e un terzo su dispositivi grandi.
+                </p>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-8">
+              <div class="card rounded-0 db-color2">
+                <h5>Colonna 1</h5>
+                <p>
+                  Larghezza intera su dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e un terzo su dispositivi grandi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
 
       <!---------------------------  FOOTER --------------------------->
       <footer></footer>
